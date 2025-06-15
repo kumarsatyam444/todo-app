@@ -256,7 +256,7 @@ const TodoApp = () => {
             placeholder="What needs to be done? ✍️"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
-            onKeyPress={(e) => handleKeyPress(e, addTodo)}
+            onKeyUp={(e) => handleKeyPress(e, addTodo)}
             maxLength={MAX_CHARS + 10}
           />
           <select

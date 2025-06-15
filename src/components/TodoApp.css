@@ -166,7 +166,7 @@
   border: 2px solid rgba(102, 126, 234, 0.3);
   border-radius: var(--border-radius-md);
   background: rgba(255, 255, 255, 0.95);
-  color: var(--text-primary);
+  color: var(--text-secondary);
   font-weight: 500;
   cursor: pointer;
   transition: all var(--transition-normal);
@@ -183,7 +183,7 @@
 }
 
 .priority-select:hover {
-  background: rgba(255, 255, 255, 1);
+  background: rgb(46, 6, 53);
   transform: translateY(-1px);
 }
 
@@ -333,7 +333,7 @@
 }
 
 .filter-group select:hover {
-  background: rgba(255, 255, 255, 1);
+  background: rgb(46, 6, 53);
   transform: translateY(-1px);
 }
 
