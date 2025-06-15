@@ -454,7 +454,7 @@ const TodoApp = () => {
         )}
       </main>
 
-      {/* Footer Stats */}
+     
       {todos.length > 0 && (
         <footer className="todo-footer glass">
           <div className="footer-stats">
@@ -488,7 +488,7 @@ const TodoApp = () => {
         </footer>
       )}
 
-      {/* Floating Action Button */}
+      
       <button 
         className="fab"
         onClick={() => document.querySelector('.todo-input').focus()}

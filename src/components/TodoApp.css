@@ -1,7 +1,7 @@
-/* Import Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
-/* CSS Variables for consistent theming */
+
 :root {
   --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
@@ -56,7 +56,7 @@
   box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.4);
 }
 
-/* Main container */
+
 .todo-app {
   max-width: 700px;
   margin: 0 auto;
@@ -112,7 +112,7 @@
   color: var(--text-primary);
 }
 
-/* Form section - IMPROVED VISIBILITY */
+
 .todo-form {
   margin-bottom: var(--spacing-xl);
   padding: var(--spacing-xl);
@@ -132,7 +132,7 @@
   position: relative;
 }
 
-/* IMPROVED INPUT VISIBILITY */
+
 .todo-input {
   flex: 1;
   padding: var(--spacing-md) var(--spacing-lg);
@@ -160,7 +160,7 @@
   transform: translateY(-1px);
 }
 
-/* IMPROVED DROPDOWN VISIBILITY */
+
 .priority-select {
   padding: var(--spacing-md) var(--spacing-lg);
   border: 2px solid rgba(102, 126, 234, 0.3);
@@ -187,7 +187,7 @@
   transform: translateY(-1px);
 }
 
-/* BETTER ADD BUTTON WITH ICON */
+
 .add-button {
   padding: var(--spacing-md) var(--spacing-xl);
   background: var(--primary-gradient);
@@ -251,7 +251,7 @@
   animation: slideInDown 0.3s ease-out;
 }
 
-/* IMPROVED FILTERS SECTION */
+/* FILTERS SECTION */
 .todo-filters {
   display: flex;
   justify-content: space-between;
@@ -272,7 +272,7 @@
   min-width: 200px;
 }
 
-/* IMPROVED SEARCH INPUT */
+/* SEARCH INPUT */
 .search-input {
   width: 100%;
   padding: var(--spacing-sm) var(--spacing-md);
@@ -312,7 +312,7 @@
   letter-spacing: 0.5px;
 }
 
-/* IMPROVED DROPDOWN SELECTS */
+/* DROPDOWN SELECTS */
 .filter-group select {
   padding: var(--spacing-sm) var(--spacing-md);
   border: 2px solid rgba(102, 126, 234, 0.3);
@@ -402,7 +402,7 @@
   gap: var(--spacing-md);
 }
 
-/* IMPROVED TODO ITEMS */
+/* TODO ITEMS */
 .todo-item {
   display: flex;
   align-items: center;
@@ -526,7 +526,7 @@
   border: 1px solid rgba(52, 152, 219, 0.2);
 }
 
-/* IMPROVED BUTTONS WITH BETTER ICONS */
+/* BUTTONS  */
 .edit-button, 
 .remove-button, 
 .save-button, 
@@ -549,7 +549,7 @@
   font-weight: 600;
 }
 
-/* EDIT BUTTON - Better styling */
+/* EDIT BUTTON  */
 .edit-button {
   color: #3498db;
   border-color: rgba(52, 152, 219, 0.3);
@@ -578,7 +578,7 @@
   box-shadow: none;
 }
 
-/* REMOVE BUTTON - Better styling */
+/* REMOVE BUTTON */
 .remove-button {
   color: #e74c3c;
   border-color: rgba(231, 76, 60, 0.3);
@@ -592,7 +592,7 @@
   box-shadow: 0 4px 12px rgba(231, 76, 60, 0.4);
 }
 
-/* SAVE BUTTON - Better styling */
+/* SAVE BUTTON  */
 .save-button {
   color: #27ae60;
   border-color: rgba(39, 174, 96, 0.3);
@@ -606,7 +606,7 @@
   box-shadow: 0 4px 12px rgba(39, 174, 96, 0.4);
 }
 
-/* CANCEL BUTTON - Better styling */
+/* CANCEL BUTTON  */
 .cancel-button {
   color: #f39c12;
   border-color: rgba(243, 156, 18, 0.3);
